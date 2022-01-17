@@ -1,0 +1,40 @@
+body {
+    background-image: url("http://localhost/wordpress/wp-content/uploads/2022/01/fundo-papel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #989898;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3333bd;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #989898;  /* creates padding around scroll thumb */
+}
+
+.fundo {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 15px;
+    padding: 1px;
+    position: relative;
+    background: rgba(10, 36, 106, 0.31);
+    text-align: center;
+}
+
+.div {
+    display: inline-block;
+    padding: 15px;
+}
+
+a {
+    color: black;
+}

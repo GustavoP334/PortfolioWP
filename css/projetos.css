@@ -1,0 +1,116 @@
+body {
+    background-image: url("http://localhost/wordpress/wp-content/uploads/2022/01/fundo-papel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #989898;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3333bd;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #989898;  /* creates padding around scroll thumb */
+}
+
+/*Post Types*/
+.site-header {
+    opacity: 0.88; }
+
+.page-proj li {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    background: rgba(10, 36, 106, 0.31);
+
+}
+
+.page-proj li:hover {
+    color: black;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 35px;
+    padding: 35px;
+    position: relative;
+    background: rgba(10, 36, 106, 0.31);
+}
+
+.page-proj a {
+    color: Black;
+    text-align: center
+}
+
+.page-proj img {
+    width: 100%;
+    height: 30vh; }
+
+.page-proj .row {
+    margin: auto;
+    padding: auto; }
+
+.page-proj .lista-proj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 10%; }
+
+.page-proj .titulo-proj {
+    font-weight: 650; }
+
+.lista-proj {
+    margin-bottom: 4rem !important;
+}
+
+.boxmodel {
+    width: 100%;
+    height: 150px;
+    background: #b6b6b6;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Fira Code", serif;
+}
+
+.boxmodel1 {
+    width: 100%;
+    height: 100px;
+    background: #939393;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Fira Code", serif;
+}
+
+.video {
+    position: absolute;
+    top: 1390px;
+    width: 40%;
+    display: block;
+    margin-left: 710px;
+}
+
+.texto {
+    position: absolute;
+    top: 35px;
+    width: 40%;
+    display: block;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Noto Serif", serif;
+    margin-left: 380px;
+    color: #96969d;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+}
